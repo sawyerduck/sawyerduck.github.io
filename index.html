@@ -6,12 +6,13 @@
             color: blue;
             font-family: 'Play', sans-serif;
         }
-        iframe {
+        .book-image {
+            max-width: 80%;
+            height: auto;
             border: 1px solid #ccc;
             border-radius: 8px;
-            width: 80%;
-            height: 500px;
-            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin-bottom: 20px;
         }
         .buy-button {
             display: inline-block;
@@ -52,7 +53,11 @@ I am trying to raise money to get a Nintendo Switch, and I made a book so I deci
 <p>
 <h2></h2>    
 
-<iframe src="https://a.co/d/fkRJioc" title="Book Preview"></iframe>
+<a href="https://a.co/d/fkRJioc" target="_blank">
+        <img src="https://m.media-amazon.com/images/I/513XaxmQCjL._SY522_.jpg" 
+             alt="Book Cover" 
+             class="book-image">
+    </a>
     <br>
 <a href="https://a.co/d/fkRJioc" class="buy-button" target="_blank">Buy on Amazon</a>
     <ul>
